@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gdb1-1" />
+        <module name="jdbc2-1" />
+        <module name="jdbc1-1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jdbc1-1" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

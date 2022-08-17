@@ -21,6 +21,9 @@ public class Demo04 {
             String sql="select count(*) from user"+
                     "where username=? and password=?";
             //创建执行SQL语句对象
+            //预编译:由原来执行时编译,提前到创建时编译,编译SQL
+            //语句时将SQL语句的,业务逻辑锁死,编译后不会被用户输入的
+            //内容所影响
             PreparedStatement ps=conn.prepareStatement(sql);
             //替换SQL语句中的?
             ps.setString(1,username);

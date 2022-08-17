@@ -10,8 +10,5 @@
         <module name="jdbc1-1" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="jdbc1-1" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
